@@ -3,5 +3,17 @@
   "description": "Access and Extend Symbl.ai's continuous conversation intelligence in your Twilio Media Streams, digitally transforming traditional voice application streams into AI with JavaScript & Symbl.ai's APIs on top of transcription.",
   "repository": "https://github.com/symblai/symbl-twilio-media-streams-integration",
   "logo": "https://symbl.ai/wp-content/uploads/2020/07/Symbl-Logo-1.svg",
-  "keywords": ["node", "express", "symbl", "twilio"]
+  "keywords": ["node", "express", "symbl", "twilio"],
+  "env": {
+    "PORT": 3000,
+    "TWILIO_ACCOUNT_SID": "CHANGE_THIS",
+    "TWILIO_AUTH_TOKEN": "CHANGE_THIS",
+    "TWILIO_NUMBER": "CHANGE_THIS",
+    "SYMBL_APP_ID": "CHANGE_THIS",
+    "SYMBL_APP_SECRET": "CHANGE_THIS",
+    "MODE": "conference",
+    "WEBHOOK_DOMAIN": "OPTIONAL_CHANGE_THIS",
+    "AGENT_PHONE": "WILL_BE_DYNAIMC_BUT_CHANGE_THIS",
+    "CUSTOMER_PHONE": "WILL_BE_DYNAIMC_BUT_CHANGE_THIS"
+  }
 }
