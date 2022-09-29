@@ -5,7 +5,6 @@
   "logo": "https://symbl.ai/wp-content/uploads/2020/07/Symbl-Logo-1.svg",
   "keywords": ["node", "express", "symbl", "twilio"],
   "env": {
-    "PORT": 3000,
     "TWILIO_ACCOUNT_SID": "CHANGE_THIS",
     "TWILIO_AUTH_TOKEN": "CHANGE_THIS",
     "TWILIO_NUMBER": "CHANGE_THIS",
